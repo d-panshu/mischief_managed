@@ -1,8 +1,8 @@
-🪄 Mischief Managed - FastAPI Backend
+Mischief Managed - FastAPI Backend
 
 A secure note management system for wizards with encryption and sharing capabilities.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 mischief_managed/
@@ -23,7 +23,7 @@ data/                   # Created automatically
 └── notes/              # Encrypted note files
 ```
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Install dependencies
@@ -36,7 +36,7 @@ python main.py
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-## 🔑 Default API Keys
+## Default API Keys
 
 - **Harry**: `harry_secret_key_123`
 - **Hermione**: `hermione_secret_key_456`
@@ -44,19 +44,19 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 - **Hagrid**: `hagrid_secret_key_012`
 - **Dumbledore** (Admin): `dumbledore_admin_key_999`
 
-## 📚 API Documentation
+##  API Documentation
 
 Access interactive API docs at: `http://localhost:8000/docs`
 
-## 🌐 Expose with ngrok
+##  Expose with ngrok
 
 ```bash
 ngrok http 8000
 ```
 
-Access at: `https://YOUR_ID.ngrok.io/docs`
+Access at: `https://8e0e054a74d7.ngrok-free.app/docs`
 
-## 🎯 Features
+##  Features
 
 ### Wizard Endpoints
 - View all wizards
@@ -75,14 +75,14 @@ Access at: `https://YOUR_ID.ngrok.io/docs`
 - Remove all shares
 - Create new wizards
 
-## 🔒 Security
+## Security
 
 - Fernet symmetric encryption
 - API key authentication
 - Role-based access control
 - Thread-safe operations
 
-## 📝 Example Usage
+## Example Usage
 
 ```python
 import requests
