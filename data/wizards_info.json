@@ -1,0 +1,8 @@
+{
+  "Harry": "harry_secret_key_123",
+  "Hermione": "hermione_secret_key_456",
+  "Ron": "ron_secret_key_789",
+  "Hagrid": "hagrid_secret_key_012",
+  "Dumbledore": "dumbledore_admin_key_999",
+  "Neville": "neville_secret_key_345"
+}
